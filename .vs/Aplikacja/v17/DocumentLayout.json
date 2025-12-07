@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\adria\\OneDrive\\Dokumenty\\GitHub\\PROGRAMuj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B6B4A25-D6E9-40BE-8387-CDF256DE685B}|Aplikacja\\Aplikacja.csproj|c:\\users\\adria\\onedrive\\dokumenty\\github\\programuj\\aplikacja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B6B4A25-D6E9-40BE-8387-CDF256DE685B}|Aplikacja\\Aplikacja.csproj|solutionrelative:aplikacja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B6B4A25-D6E9-40BE-8387-CDF256DE685B}|Aplikacja\\Aplikacja.csproj|c:\\users\\adria\\onedrive\\dokumenty\\github\\programuj\\aplikacja\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B6B4A25-D6E9-40BE-8387-CDF256DE685B}|Aplikacja\\Aplikacja.csproj|solutionrelative:aplikacja\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B6B4A25-D6E9-40BE-8387-CDF256DE685B}|Aplikacja\\Aplikacja.csproj|c:\\users\\adria\\onedrive\\dokumenty\\github\\programuj\\aplikacja\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B6B4A25-D6E9-40BE-8387-CDF256DE685B}|Aplikacja\\Aplikacja.csproj|solutionrelative:aplikacja\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B6B4A25-D6E9-40BE-8387-CDF256DE685B}|Aplikacja\\Aplikacja.csproj|c:\\users\\adria\\onedrive\\dokumenty\\github\\programuj\\aplikacja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B6B4A25-D6E9-40BE-8387-CDF256DE685B}|Aplikacja\\Aplikacja.csproj|solutionrelative:aplikacja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 196,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Dokumenty\\GitHub\\PROGRAMuj\\Aplikacja\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Aplikacja\\Views\\Home\\Index.cshtml",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Dokumenty\\GitHub\\PROGRAMuj\\Aplikacja\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Aplikacja\\Controllers\\HomeController.cs",
@@ -78,19 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Dokumenty\\GitHub\\PROGRAMuj\\Aplikacja\\Program.cs",
               "RelativeDocumentMoniker": "Aplikacja\\Program.cs",
               "ToolTip": "C:\\Users\\adria\\OneDrive\\Dokumenty\\GitHub\\PROGRAMuj\\Aplikacja\\Program.cs",
               "RelativeToolTip": "Aplikacja\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T09:46:15.864Z"
+              "WhenOpened": "2025-12-07T09:46:15.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Dokumenty\\GitHub\\PROGRAMuj\\Aplikacja\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Aplikacja\\Data\\ApplicationDbContext.cs",
@@ -98,12 +99,11 @@
               "RelativeToolTip": "Aplikacja\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T09:43:26.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T09:43:26.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Kurs.cs",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Dokumenty\\GitHub\\PROGRAMuj\\Aplikacja\\Models\\Kurs.cs",
               "RelativeDocumentMoniker": "Aplikacja\\Models\\Kurs.cs",
