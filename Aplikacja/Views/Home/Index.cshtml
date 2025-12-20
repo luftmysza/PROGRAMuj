@@ -1,47 +1,8 @@
-﻿@* Initial Version DMI 19.12 *@
-
-@model DashboardData
-
-@{
-    ViewData["Title"] = "Dashboard";
+﻿@{
+    ViewData["Title"] = "Home Page";
 }
 
-<div class="row">
-  <h1>wItaJj, typiE</h1>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <h3>Popularne kursy</h3>
-      <table class="table table-striped">
-        @if (Model?.TrendingCourses?.Any() == true)
-        {
-          foreach (Course c in Model.TrendingCourses!) 
-          {
-            <tr>
-              <td>
-                <a asp-controller="Course" asp-action="Details" asp-route-id="@c.Id">@c.Title</a>
-              </td>
-            </tr>
-          }
-        }
-      </table>
-    </div>
-
-    <div class="col-md-6">
-      <h3>Liderzy rankingu</h3>
-      <table class="table table-striped">
-        @if (Model?.HighestRankingUsers?.Any() == true)
-        {
-            foreach (User u in Model.HighestRankingUsers!)
-            {
-              <tr>
-                  <td>@u.Name</td>
-              </tr>
-            }
-        }
-      </table>
-    </div>
-  </div>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>

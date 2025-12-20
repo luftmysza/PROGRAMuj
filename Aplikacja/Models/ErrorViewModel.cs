@@ -1,9 +1,9 @@
-namespace PROGRAMuj.Models;
-
-public class ErrorViewModel
+namespace Aplikacja.Models
 {
-    public string? RequestId { get; set; }
+    public class ErrorViewModel
+    {
+        public string? RequestId { get; set; }
 
-    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
 }
-
