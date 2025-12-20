@@ -1,32 +1,36 @@
 using System.Diagnostics;
-using Aplikacja.Models;
+
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace Aplikacja.Controllers
+using PROGRAMuj.Models;
+using PROGRAMuj.Data;
+
+namespace PROGRAMuj.Controllers;
+
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private readonly ApplicationDbContext _context;
+    
+    public HomeController(ApplicationDbContext context)
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        _context = context;
+    }
+    [HttpGet]
+    public async Task<IActionResult> Index()
+    {
+        var dbData = new DashboardData
         {
-            _logger = logger;
-        }
+            TrendingCourses = await _context.Courses.Take(10).ToListAsync(),
+            HighestRankingUsers = await _context.Users.Take(10).ToListAsync()
+        };
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        return View(dbData);
+    }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
